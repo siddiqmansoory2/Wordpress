@@ -1,0 +1,54 @@
+<?php
+$page_id = get_the_ID();
+global $wp;
+$current_url = home_url(add_query_arg(array(), $wp->request));
+if($page_id == 9586 || $page_id == 240 || $page_id == 1820 || $page_id == 9587 || $page_id == 850 || $page_id == 9628 || $page_id == 9766 || $page_id == 9821 || $page_id == 9842 || $page_id == 9863 || $page_id == 9882 || $page_id == 9902 || $page_id == 9915 || $page_id == 9930 || $page_id == 9943 || $page_id == 581 || $page_id == 16 || $page_id == 9589)
+{
+?>
+<script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@graph": [
+{
+"@type": "LegalService",
+"name": "Atlanta Family & Immigration Law",
+"image": "https://atlfamilyimmigrationlaw.com/wp-content/uploads/2020/09/logo_registered.png",
+"url": "<?php echo $current_url; ?>",
+"@id": "<?php echo $current_url; ?>",
+"address": {
+"@type": "PostalAddress",
+"addressLocality": "Atlanta",
+"addressRegion": "GA",
+"postalCode": "30344",
+"streetAddress": "2860 Church St",
+"AddressCountry": "U.S.A."
+},
+"telephone": "(678) 721-8707",
+"hasMap": "https://g.page/atlfamilylawimmigration?share",
+"geo": {
+"@type": "GeoCoordinates",
+"latitude": "33.6771992",
+"longitude": "-84.444199"
+},
+"description": "Whether you need help with a divorce or a child custody matter, have a landlord-tenant issue or are trying to obtain citizenship or get a visa, we can help. Let us help guide you on your next step.",
+"makesOffer": ["Family and Immigration Lawyer"],
+"priceRange": "$",
+"memberOf": {
+"@type" : "Organization",
+"url" : "https://atlfamilyimmigrationlaw.com/"
+}
+,
+"aggregateRating": {
+"@type": "AggregateRating",
+"itemReviewed": "Atlanta Family & Immigration Law",
+"ratingValue": 5.0,
+"reviewCount": 57,
+"bestRating": 5,
+"worstRating": 0
+},
+"review": []
+}
+]
+} </script>
+<?php
+}

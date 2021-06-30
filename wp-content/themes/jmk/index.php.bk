@@ -1,0 +1,120 @@
+<?php
+/**
+ * The template for displaying all pages
+ *
+ * This is the template that displays all pages by default.
+ * Please note that this is the WordPress construct of pages
+ * and that other 'pages' on your WordPress site may use a
+ * different template.
+ *
+ * @link https://codex.wordpress.org/Template_Hierarchy
+ *
+ * @package WP_Bootstrap_Starter
+ */
+get_header();
+?>
+
+	<?php if (have_rows('banner')): ?>	
+		<?php while (have_rows('banner')): the_row(); ?>		
+			<?php $banner_image = get_sub_field('banner_image'); ?>		
+			<!--banner start-->
+			<section class="cms-banner" style="background-image: url(<?php echo $banner_image; ?>);">				
+				<?php if (have_rows('inner_sections')): ?>
+					<?php while (have_rows('inner_sections')): the_row(); ?>
+					<div class="container">
+						<div class="row d-flex">
+							<div class="col-md-8 col-sm-8">		
+								<?php if (have_rows('left_section')): ?>
+									<?php while (have_rows('left_section')): the_row(); ?>
+										<div class="banner-inner">										
+											<?php if (have_rows('title_section')): ?>
+												<?php while (have_rows('title_section')): the_row(); ?>
+													<<?php echo get_sub_field('content_tag'); ?> class='<?php echo get_sub_field('content_class'); ?>'><?php echo get_sub_field('content'); ?></<?php echo get_sub_field('content_tag'); ?>>
+												<?php endwhile; ?>
+											<?php endif; ?>
+											
+											<div class="btn-box">											
+												<?php if (have_rows('button_section')): ?>
+													<?php $or=0;while (have_rows('button_section')): the_row(); $or++; ?>
+													
+														<?php if($or!=1):echo '<span class="or">or</span>'; endif; ?>										
+														<a class="theme-btn <?php echo get_sub_field('button_class'); ?>" href='<?php echo get_sub_field('button_url'); ?>'>
+															<span class="btn__ink"></span>
+															<div class="btn__inner"><?php echo get_sub_field('button_title'); ?></div>
+														</a>
+													<?php endwhile; ?>
+												<?php endif; ?>													
+											</div>
+										</div>
+									<?php endwhile; ?>
+								<?php endif; ?>								
+							</div>
+							<div class="col-md-3 col-md-4 col-md-offset-1">
+							
+								<?php if (have_rows('right_section')): ?>
+									<div class="banner-right">
+									<?php while (have_rows('right_section')): the_row(); ?>
+										<div class="save-box">
+											<h4><?php echo get_sub_field('title'); ?></h4>
+											<?php echo get_sub_field('content'); ?>
+										</div>
+									<?php endwhile; ?>
+									</div>
+								<?php endif; ?>
+							</div>
+						</div>
+					</div>					
+					
+					<?php if (have_rows('bottom_section')): ?>
+					
+					<div class="banner-bottom">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-12">
+									<div class="bottom-box">
+										<?php $cnt_box=0; while (have_rows('bottom_section')): $cnt_box++; the_row(); ?>
+										<div class="box box-<?php echo $cnt_box; ?>">
+											<img src="<?php echo get_sub_field('icon'); ?>" alt="">
+											<p><?php echo get_sub_field('text'); ?></p>
+										</div>
+										<?php endwhile; ?>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>					
+					<?php endif; ?>		
+					<?php endwhile; ?>
+				<?php endif; ?>	
+			</section>
+			<!--banner end-->		
+		<?php endwhile; ?>	
+	<?php endif; ?>
+
+	<!--internal page start-->
+    <section class="cms-compensation">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="compensation-inner">
+                        <?php
+						while ( have_posts() ) : the_post();
+
+							get_template_part( 'template-parts/content', get_post_format() );
+							
+							if ( comments_open() || get_comments_number() ) :
+								//comments_template();
+							endif;
+						endwhile;
+					?>
+                    </div>
+                </div>
+				
+				<?php get_sidebar(); ?>
+				
+            </div>
+        </div>
+    </section>
+    <!--internal page end-->
+<?php
+get_footer();

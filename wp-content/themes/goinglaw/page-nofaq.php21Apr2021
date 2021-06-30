@@ -1,0 +1,53 @@
+<?php
+/**
+* Template Name: No FAQ Page
+ */
+
+get_header(); ?>
+
+
+	<!--internal page start-->
+    <section class="cms-compensation">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="compensation-inner">
+                        <?php
+						while ( have_posts() ) : the_post();
+							the_content();
+						endwhile;
+					?>
+                    </div>
+                </div>
+				
+				<?php get_sidebar(); ?>
+				
+            </div>
+        </div>
+    </section>
+    <!--internal page end-->
+
+
+    <section style="background:#651210;padding:20px 0">
+		
+        <div class="container">
+            <div class="row d-flex">
+                <div class="col-md-12">
+                    
+             
+                    <div class="banner-inner">
+                        
+                        <h2 style="color:#fff;margin:0">No matter what life throws your way, get GOING.</h2>
+
+                        
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+    
+	</section>
+
+
+<?php
+get_footer();

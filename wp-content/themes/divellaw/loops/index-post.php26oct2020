@@ -1,0 +1,34 @@
+<?php
+/*
+The Index Post (or excerpt)
+===========================
+Used by index.php, category.php and author.php
+*/
+?>
+
+	<article class="mb-5" role="article" id="post_<?php the_ID()?>" <?php post_class(); ?> >
+		<main>
+		<a href="<?php the_permalink(); ?>">
+			<?php the_post_thumbnail(); ?>
+				
+			<h3 class="text-center">
+				
+					<?php the_title()?>
+				
+			</h3>
+			<h3 class="text-center"><br>$
+				<?php echo the_field('price'); ?>
+			</h3>
+			</a>
+
+			<?php if ( has_excerpt( $post->ID ) ) {
+  	the_excerpt();
+    ?>
+			<p><a href="<?php the_permalink(); ?>">
+    	<?php _e( '&hellip; ' . __('Continue reading', 'b4st' ) . ' <i class="fas fa-arrow-right"></i>', 'b4st' ) ?>
+      </a></p>
+			<?php } else {
+  	 the_content( __( '&hellip; ' . __('Continue reading', 'b4st' ) . ' <i class="fas fa-arrow-right"></i>', 'b4st' ) );
+	} ?>
+		</main>
+	</article>

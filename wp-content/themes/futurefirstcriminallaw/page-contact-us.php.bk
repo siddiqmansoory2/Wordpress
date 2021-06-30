@@ -1,0 +1,90 @@
+<?php get_header(); ?>
+<link rel='stylesheet' id='custom-css-css'  href='/wp-content/themes/futurefirstcriminallaw/theme/css/custom.css' type='text/css' media='all' />
+<style>
+    @media(max-width:991px){
+        
+        .container {
+    max-width: 540px;
+}
+        .col-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+        .col-md-12,.col-md-6 {
+            width:100%;
+        }
+        .booked-calendar-wrap {
+            
+        }
+        .contact-portret {
+            height:240px;
+        }
+    }
+</style>    
+<main id="primary" class="site-main  defaultpage">
+<section class="cms-banner"></section>
+
+
+	<section class="cms-innercontent">
+        <div class="container">
+
+			
+			<div class="row">
+                <div class="col-md-12">
+                    
+	<div class="container pb-5 border-bottom">
+		<header class="mb-4 mt-5 border-bottom">
+			<h1>
+				<?php echo get_field('heading'); ?>
+			</h1>
+		</header>
+		<div class="row ">
+			<div class="col-md-6 mt-5">
+				<!-- Vertical Form -->
+				<div class="form-wrapper">
+                    <?php echo get_field('form'); ?>
+				</div>
+			</div>
+
+			<div class="col-12 col-md-6">
+				<div class="card mb-3 mt-5">
+					<div class="card-body">
+                        <?php echo get_field('address'); ?>
+						
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-body">
+                        <?php echo get_field('map'); ?>
+					</div>
+				</div>
+			</div>
+		</div>
+				<div class="row">
+			<div class="col-md-12">
+				<h2 class="my-5 h1 border-bottom">
+                    <?php echo get_field('calendarheading'); ?>
+				</h2>
+			</div>
+			<div class="col-md-6">
+				<?php echo get_field('calendar'); ?>
+			</div>
+			<div class="col-md-6 text-center my-auto contact-portret" style="margin:0 auto 30px !important;display:flex;align-items:center">
+                <?php echo get_field('team'); ?>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+                <?php echo get_field('map360'); ?>
+		</div>
+		</div>
+	</div>
+ </div>
+          </div>
+			
+        </div>
+    </section>
+</main>
+
+<?php get_footer(); ?>

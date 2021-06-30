@@ -1,0 +1,166 @@
+/* 1440 */
+@media only screen and (max-width: 1600px) and (min-width: 1440px) {
+	
+}	
+
+/* 1366 */
+@media only screen and (max-width: 1439px) and (min-width: 1281px) {
+		
+}
+
+/* 1280 */
+@media only screen and (max-width: 1280px) and (min-width: 1200px) {
+		
+}
+
+/* 1024 */
+@media only screen and (max-width: 1199px) {
+	header.cms-header .header-call {
+		display: none;
+	}
+	section.cms-banner .banner-right {
+		padding: 15px;
+	}
+
+
+	
+
+}
+
+/* 768 */
+@media only screen and (max-width: 1023px) {
+
+	
+	.navbar-header {
+        float: none;
+    }
+    .navbar-nav {
+    	float: none;
+    	margin: 0;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    
+    
+    header.cms-header .navbar-collapse {
+    	border: none;
+    	box-shadow: none;
+    	padding: 0;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+	.navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+  		display:block !important;
+  		border: none;
+	}
+
+
+	header.cms-header .header-inner {
+		display: block;
+		padding: 8px 0px 8px;
+		width: 100%;
+		float: left;
+	}
+	.navbar-toggle {
+		float: right;
+		display: block;
+		margin-right: 0px;
+		margin-bottom: 0;
+		margin-top: 3px;
+		border-radius: 0;
+		border: none;
+	}
+	
+	.navbar-default .navbar-toggle .icon-bar {
+		height: 4px;
+		width: 24px;
+		background-color: #34B198;
+		border-radius: 0;
+	}
+	.navbar-default .navbar-toggle:focus, 
+	.navbar-default .navbar-toggle:hover {
+		background-color: transparent;
+	}
+	header.cms-header .header-right {
+		justify-content: flex-start;
+	    padding: 10px 12px;
+	}
+
+	section.cms-banner .banner-inner {
+		padding-right: 0;
+	}
+	section.cms-banner .banner-inner h1 {
+		font-size: 36px;
+	}
+	section.cms-banner .banner-inner p {
+		font-size: 36px;
+	}
+	section.cms-banner .btn-box .or {
+		padding: 0 14px;
+	}
+	section.cms-banner .theme-btn .btn__inner {
+		min-width: 220px;
+	}
+	section.cms-banner .theme-btn.orange-btn .btn__inner {
+		min-width: 170px;
+	}
+
+
+	
+	
+}
+
+/* 736 */
+@media only screen and (max-width: 767px) {
+	
+
+}
+	
+
+/* 667 */
+@media only screen and (max-width: 735px) {
+	
+}
+
+/* 600 */
+@media only screen and (max-width: 666px) {
+	
+
+}
+
+/* 568 */
+@media only screen and (max-width: 599px) {
+
+}
+
+/* 480 */
+@media only screen and (max-width: 567px) {
+
+}
+
+/* 414 */
+@media only screen and (max-width: 479px) {
+
+}
+
+/* 375 */
+@media only screen and (max-width: 413px) {
+
+}
+
+/* 320 */
+@media only screen and (max-width: 374px) {
+
+}
+
+
+

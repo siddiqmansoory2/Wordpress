@@ -1,0 +1,681 @@
+/* 1440 */
+@media only screen and (max-width: 1600px) and (min-width: 1440px) {
+	
+}	
+
+/* 1366 */
+@media only screen and (max-width: 1439px) and (min-width: 1281px) {
+		
+}
+
+/* 1280 */
+@media only screen and (max-width: 1280px) and (min-width: 1200px) {
+.banner-bottom .bottom-box .box{    
+        font-size: 24px;
+    }		
+}
+
+/* 1024 */
+@media only screen and (max-width: 1199px) {
+    .banner-bottom .bottom-box .box,.practice-head h4{    
+        font-size: 20px;
+    }
+
+
+    section.cms-practice {
+    	padding: 120px 0 120px;
+    }
+    .practice-head img {
+        height: 40px;
+    }
+	header.cms-header .header-call {
+		display: none;
+	}
+	section.cms-banner .banner-right {
+		padding: 15px;
+	}
+
+
+	section.cms-firm .my-firm .firm-right {
+		padding: 20px 20px 0px;
+	}
+	section.cms-firm .help-section .help-ltf {
+		width: 60%;
+	}
+	section.cms-firm .help-section ul li {
+		font-size: 16px;
+	}
+	section.cms-firm .help-section .help-rtf {
+		width: 40%;
+	}
+
+
+	section.cms-testimonial .review h4 {
+		font-size: 26px;
+	}
+	section.cms-testimonial .review .rating-star {
+		font-size: 26px;
+	}
+	section.cms-testimonial .author p {
+		min-height: 390px;
+	}
+	.cms-reviews .testimonial-inner:before {
+		height: 70px;
+		right: 30px;
+		top: 50px;
+	}
+	.cms-reviews .testimonial-inner:after {
+		height: 70px;
+		left: 5px;
+		bottom: -31px;
+	}
+
+
+	section.cms-serve .serve-detail {
+		padding: 0;
+	}
+
+
+	/*============================= internal page responsive start here =======================================*/
+	section.cms-compensation .sidebar-item h4 {
+		font-size: 18px;
+	}
+	section.cms-compensation .sidebar-item p {
+		padding-right: 0;
+	}
+}
+
+/* 768 */
+@media only screen and (max-width: 1023px) {
+
+    header.cms-header .navbar-header {
+        width:auto;
+    }
+	.navbar-header {
+        float: none;
+    }
+    .navbar-nav {
+    	float: none;
+    	margin: 0;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    
+    
+    header.cms-header .navbar-collapse {
+    	border: none;
+    	box-shadow: none;
+    	padding: 0;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+	.navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+  		display:block !important;
+  		border: none;
+	}
+
+
+	header.cms-header .header-inner {
+		display: block;
+		padding: 8px 0px 8px;
+		width: 100%;
+		float: left;
+	}
+	.navbar-toggle {
+		float: right;
+		display: block;
+		margin-right: 0px;
+		margin-bottom: 0;
+		margin-top: 3px;
+		border-radius: 0;
+		border: none;
+	}
+	
+	.navbar-default .navbar-toggle .icon-bar {
+		height: 4px;
+		width: 24px;
+		background-color: #A61E22;
+		border-radius: 0;
+	}
+	.navbar-default .navbar-toggle:focus, 
+	.navbar-default .navbar-toggle:hover {
+		background-color: transparent;
+	}
+	header.cms-header .header-right {
+		justify-content: flex-start;
+	    padding: 10px 12px;
+	}
+
+	section.cms-banner .banner-inner {
+		padding-right: 0;
+	}
+	section.cms-banner .banner-inner h2 {
+		font-size: 36px;
+	}
+	section.cms-banner .banner-inner h3 {
+		font-size: 36px;
+	}
+	section.cms-banner .btn-box .or {
+		padding: 0 14px;
+	}
+	section.cms-banner .theme-btn .btn__inner {
+		min-width: 220px;
+	}
+
+
+
+	section.cms-firm .my-firm .firm-right h2 {
+		font-size: 26px;
+		line-height: 32px;
+		margin: 0 0 20px;
+	}
+	section.cms-firm .my-firm .firm-right p {
+		margin-bottom: 20px;
+		font-size: 14px;
+	}
+	section.cms-firm .help-section ul {
+		margin-left: 0;
+	}
+
+	section.cms-practice .practice-box::before {
+		display: none;
+	}
+	section.cms-practice .practice-box {
+		padding-bottom: 40px;
+	}
+	section.cms-practice .practice-box h4 {
+		width: 100%;
+	}
+
+
+	section.cms-testimonial .review {
+		text-align: center;
+	}
+	section.cms-testimonial .slick-dots li button::before {
+		color: #A61E22;
+		font-size: 60px;
+	}
+	section.cms-testimonial .author p {
+	    min-height: 340px;
+	}
+
+
+	section.cms-blog .blog h4 {
+	    font-size: 16px;
+	    line-height: 22px;
+	    padding: 10px 10px 10px;
+	}
+	section.cms-blog .blog .readmore a {
+		line-height: 56px;
+		font-size: 18px;
+	}
+
+
+
+
+
+	section.cms-serve .serve-detail ul li {
+		font-size: 16px;
+	}
+	section.cms-serve .serve-detail ul li span {
+		font-size: 14px;
+	}
+
+	.btn__inner {
+		min-width: 180px;
+		height: 40px;
+		font-size: 14px;
+	}
+
+
+
+	/*============================= internal page responsive start here =======================================*/
+	section.cms-compensation .compensation-inner {
+	    padding-right: 0;
+	}
+	section.cms-compensation .sidebar-item .btn-box .btn__inner {
+		font-size: 16px;
+	}
+	section.cms-compensation .row {
+		display: block;
+	}
+	section.cms-compensation .sidebar-item {
+		position: relative;
+	}
+	section.cms-compensation .sidebar-item .right-box {
+		position:relative;
+		top: 0;
+	}
+
+	
+}
+
+/* 736 */
+@media only screen and (max-width: 991px) {
+
+	section.cms-compensation {
+		padding: 20px 0 40px;
+	}
+	section.cms-compensation .compensation-img h2 {
+		left: 20px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	section.cms-banner .d-flex {
+		display: block;
+	}
+	section.cms-banner .btn-box {
+		justify-content: center;
+	}
+	section.cms-banner .banner-right {
+		max-width: 100%;
+		width: 100%;
+		float: left;
+		margin-top: 20px;
+	}
+
+
+	section.cms-compensation .compensation-inner .entry-title {
+		font-size: 30px;
+		line-height: 1.2;
+	}
+	section.cms-compensation .compensation-inner .entry-content h2 {
+		font-size: 24px;
+		line-height: 1.2;
+	}
+
+
+
+	section.cms-map .locationlist {
+		padding: 0 15px;
+	}
+
+
+
+
+	section.cms-serve .serve-detail ul li {
+		width: 50%;
+	}
+	section.cms-serve .serve-detail ul li:nth-child(2n) {
+		width: 50%;
+	}
+
+
+
+	.cms-reviews .testimonial-inner::before {
+	    height: 50px;
+	    right: 0;
+	    top: 60px;
+	}
+	.cms-reviews .testimonial-inner::after {
+	    height: 50px;
+	    left: 0;
+	    bottom: -20px;
+	}
+
+
+
+
+
+	section.cms-blog .blog {
+		padding-bottom: 20px;
+	}
+	section.cms-blog .blog .blog-img img {
+		width: 100%;
+		object-fit: cover;
+	}
+
+
+
+
+	footer.cms-footer .footer-contact {
+		display: flex;
+		justify-content: center;
+	}
+	footer.cms-footer .footer-social {
+		border: 0;
+		display: block;
+		text-align: center;
+		margin: 30px 0 0;
+	}
+	footer.cms-footer .footer-social ul {
+		display: inline-block;
+		border: solid 1px #fff;
+	}
+	footer.cms-footer .footer-menu {
+		text-align: center;
+		float: none;
+		padding: 30px 0 0;
+	}
+	footer.cms-footer .footer-logo {
+		text-align: center;
+	}
+	footer.cms-footer .btn-box {
+		text-align: center;
+	}
+
+}
+	
+
+/* 667 */
+@media only screen and (max-width: 735px) {
+	section.cms-firm .my-firm {
+		display: flex;
+		align-items: stretch;
+	}
+	section.cms-firm .my-firm .avatar img {
+		height: 100%;
+		object-fit: cover;
+		object-position: 0;
+	}
+	section.cms-firm .help-section .help-ltf {
+	    width: 100%;
+	}
+	section.cms-firm .help-section .help-rtf {
+	    width: 100%;
+	    padding-top: 20px;
+	}
+	section.cms-firm .help-section .help-rtf h5 {
+		text-align: left;
+	}
+	section.cms-firm .help-section .help-rtf .btn-box.text-right {
+		text-align: left;
+	}
+
+
+
+
+	section.cms-testimonial .author p {
+	    min-height: 400px;
+	}
+
+
+
+	section.cms-faq .panel-title > a {
+	    padding: 10px 10px 10px;
+	    line-height: 24px;
+	    font-size: 18px;
+	}
+	section.cms-faq .panel-group .panel-heading + .panel-collapse > .panel-body {
+		padding-right: 10px;
+	}
+
+
+
+
+	section.cms-blog .blog h4 {
+		width: 100%;
+		padding: 15px;
+	}
+}
+
+/* 600 */
+@media only screen and (max-width: 666px) {
+	section.cms-banner {
+		padding: 20px 0 0;
+	}
+	section.cms-banner .banner-inner h2 {
+	    font-size: 30px;
+	    line-height: 40px;
+	}
+	section.cms-banner .banner-inner h3 {
+	    font-size: 26px;
+	    line-height: 36px;
+	}
+	section.cms-banner .btn-box {
+		flex-wrap: wrap;
+	}
+	section.cms-banner .btn-box .or {
+		width: 220px;
+		padding: 5px 0;
+		text-align: center;
+	}
+	section.cms-banner .theme-btn.orange-btn .btn__inner {
+		min-width: 220px;
+	}
+	section.cms-banner .banner-bottom .bottom-box {
+		display: none;
+	}
+
+
+
+
+
+
+	.title-block h2 {
+		font-size: 30px;
+	}
+	section.cms-practice {
+		padding: 120px 0;
+	}
+	section.cms-practice .practice-box h4 {
+		min-height: 40px;
+		font-size: 16px;
+	}
+	section.cms-practice .btn-box .or {
+		width: 100%;
+		padding: 0;
+		text-align: center;
+	}
+
+
+
+
+
+	section.cms-testimonial {
+		padding: 40px 0 60px;
+	}
+	section.cms-testimonial .author p {
+	    min-height: auto;
+	}
+
+
+
+
+
+	section.cms-faq {
+		padding: 90px 0;
+	}
+	section.cms-faq .panel-title > a {
+		padding: 10px 10px 10px;
+		line-height: 24px;
+		font-size: 16px;
+	}
+	section.cms-faq .panel-group .panel-heading + .panel-collapse > .panel-body {
+		padding: 15px;
+	}
+	section.cms-faq .btn-box .or {
+		width: 100%;
+		padding: 0;
+		text-align: center;
+	}
+
+
+
+
+
+
+	section.cms-serve {
+		padding: 130px 0 20px;
+	}
+	section.cms-serve .serve-detail ul li {
+		width: 100%;
+	}
+	section.cms-serve .serve-detail ul li:nth-child(2n) {
+		width: 100%;
+	}
+
+	footer.cms-footer .footer-social {
+		margin-left: 0;
+	}
+
+
+
+
+	/*============================= internal page responsive start here =======================================*/
+	section.cms-compensation .compensation-img h2 {
+		font-size: 24px;
+		line-height: 32px;
+		right: 30px;
+		left: 30px;
+	}
+
+
+
+}
+
+/* 568 */
+@media only screen and (max-width: 599px) {
+
+}
+
+/* 480 */
+@media only screen and (max-width: 567px) {
+	section.cms-firm .my-firm {
+		display: block;
+	}
+	section.cms-firm .my-firm .firm-right {
+	    padding: 20px 20px 15px;
+	}
+	section.cms-firm .my-firm .avatar {
+		width: 100%;
+		float: none;
+		height: 360px;
+	}
+	section.cms-firm .my-firm .avatar img {
+		width: 100%;
+		object-position: top;
+	}
+	section.cms-firm .my-firm .firm-right {
+		width: 100%;
+	}
+}
+
+/* 414 */
+@media only screen and (max-width: 479px) {
+	/*============================= internal page responsive start here =======================================*/
+	section.cms-compensation .compensation-img h2 {
+		font-size: 20px;
+		line-height: 28px;
+	}
+}
+
+/* 375 */
+@media only screen and (max-width: 413px) {
+
+}
+
+/* 320 */
+@media only screen and (max-width: 374px) {
+
+}
+
+
+@media (max-width:767px){
+    
+    section.cms-map {
+        background:none;
+    }
+    .locationlist li  {
+    width:50%;
+    font-size: 16px;
+    padding-left: 15px;
+    line-height: 1.3;
+    background-size: 12px 14px;
+    background-position: 0 4px;
+    }
+            .practice-areas {
+        background: none;
+    }
+     
+    .practice-head {  
+    background:#A61E22;
+        padding:10px;
+        height: auto;
+        margin:0 0 10px;
+    }
+    .practice-list {
+        margin-bottom:30px
+    }
+ .banner-bottom {   
+    background:#651210;
+}
+    .banner-bottom .bottom-box {
+        display:block;
+    }
+    .banner-bottom .bottom-box .box{    
+        font-size: 22px;
+    }
+    .banner-bottom .bottom-box .box:before {
+    content:none;
+    }
+    .banner-bottom .bottom-box .box:not(.box-4) {
+    padding-left:30px;
+        margin-bottom:20px;
+    }
+    .banner-bottom .bottom-box .box img {
+        width:50px;
+        height: auto;
+    }
+    section.cms-banner {
+        padding:30px 0 40px !important;
+        background-position: left top;
+        background-size: auto;
+    }
+    h2 {
+        font-size: 30px;
+        line-height: 1.2;
+    }
+    section.cms-firm {
+        padding:40px 0 10px;
+    }
+    .cms-firm .col-md-5 {
+        margin-bottom:30px
+    }
+    
+    
+.cms-reviews  {
+    margin-bottom:100px
+}
+.cms-reviews h3 {
+font-size: 21px;
+}
+.cms-reviews h3 i {
+    font-size:20px;
+}
+.cms-reviews .testimonial-inner {
+background:none;	
+}
+
+.cms-reviews .testimonial  {
+	max-width:90%;
+	padding:20px;
+    border: 2px solid #A61E22;
+    border-radius:10px;
+}
+.cms-reviews .testimonial:before {
+	content:none;
+} 
+.cms-reviews  .reviewbox p , .cms-reviews  .reviewbox h4 { 
+font-size: 17px;
+line-height: 1.3;
+}  
+.cms-form .gform_wrapper ul li.col-half {
+    width:100%;
+
+}
+    .banner-bottom  div.spacer {
+        display:none;
+    }
+    
+}

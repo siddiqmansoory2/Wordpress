@@ -1,0 +1,186 @@
+<footer class="bg-light">
+	<?php if (!is_page(557)) { ?>
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2';
+		fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+			<div class="staff">
+				<div class="content">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-8 text-center text-lg-left">
+								<h2 class="mt-5 mb-3 hr-line"><span>Future First Criminal Law </span>Staff</h2>
+								<div class="d-lg-flex">
+									<img class="img-responsive" style="width: 259px; height: 250px;" src="<?php echo get_template_directory_uri(); ?>/theme/img/Zachary-Divelbiss.jpg" alt="Zachary Divelbiss" title="Zachary Divelbiss" />
+									<div class="pl-lg-4 pl-0 my-auto py-lg-0 py-3">
+										<h3>Zachary Divelbiss</h3>
+										<p class="mb-0"><em>Attorney/Owner</em></p>
+										<p class="pt-3">Founder of Future First Criminal Law<br> Criminal Defense Experience as an Attorney, Law Clerk & Legal Intern </p>
+										<a href="<?php the_permalink(9); ?>" class="mt-2 btn btn-info" role="button" title="Read More">Read More</a>
+									</div>
+								</div>
+								<div class="d-lg-flex mt-4">
+									<img class="img-responsive" style="width: 259px; height: 250px;" src="<?php echo get_template_directory_uri(); ?>/theme/img/Christie-Larson.png" alt="Christie “CT” Larson" title="Christie “CT” Larson" />
+									<div class="pl-lg-4 pl-0 my-auto py-lg-0 py-3">
+										<h3>Christie “CT” Larson</h3>
+										<p class="mb-0"><em>Mitigation Specialist</em></p>
+										<p class="pt-3">Born and raised in the PNW, CT received her undergraduate at University of Washington then moved to Arizona to pursue her passion for helping others by obtaining her Masters at ASU in<br> Speech Language Pathology. </p>
+										<?php /* <a href="<?php the_permalink(47); ?>" class="mt-2 btn btn-info" role="button" title="Read More">Read More</a> */ ?>
+									</div>
+								</div>
+								<div class="d-lg-flex mt-4">
+									<img class="img-responsive" style="width: 259px; height: 250px;" src="<?php echo get_template_directory_uri(); ?>/theme/img/ColeWhiteleyPic.jpeg" alt="Cole Whiteley" title="Cole Whiteley" />
+									<div class="pl-lg-4 pl-0 my-auto py-lg-0 py-3">
+										<h3>Cole Whiteley</h3>
+										<p class="mb-0"><em>Paralegal/Legal Assistant</em></p>
+										<p class="pt-3">Born and raised in the suburbs in Philadelphia, Cole received a B.A. in Spanish education from Susquehanna University. Cole recently moved to Arizona to pursue opportunities where he can put his passion for helping people and language skills to use. Cole is fluent in Spanish and enjoys helping people in the legal process.</p>
+									</div>
+								</div>
+								<div class="d-lg-flex mt-4">
+									<img class="img-responsive" style="width: 259px; height: 250px;" src="<?php echo get_template_directory_uri(); ?>/theme/img/joe-messenger.JPG" alt="Joe Messenger" title="Joe Messenger" />
+									<div class="pl-lg-4 pl-0 my-auto py-lg-0 py-3">
+										<h3>Joe Messenger</h3>
+										<p class="mb-0"><em>Client Services Manager</em></p>
+										<p class="pt-3">Originally born and raised in Wisconsin. Spent four years in the U.S Army and did one tour in Iraq. Passionate about helping other who are faced with the same criminal hardship that I have experienced myself in the past. </p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 mt-lg-5 mt-0">
+								<!-- Vertical Form -->
+								<div class="form-request text-center mt-lg-5 mt-2">
+									<a href="<?php the_permalink(18); ?>">
+										<h2 class="my-4">request a <span>Free</span> <br>consultation
+										</h2>
+										<p>Know your case and<br> what options you have</p>										
+									</a>
+								</div>
+								<div class="sider-box mt-4">
+									<p>“ It is a fundamental principle of criminal law that an imputed offense must correspond exactly to the type of crime described by law. If no law applies exactly to the point in question, then there is no offense. ”<br><span>-Fidel Castro</span></p>									
+								</div>
+								
+									<center><div 
+									class="fb-page fbpos mt-4" 
+									data-href="https://www.facebook.com/Divellaw/?eid=ARA-XnT0l114JhyJ0RSA-RQPjB-pVbuwvKE8gV43pNll1-jOjY6R7q9ys8fpldzlb2Lde79QXuZEs8cX" 
+									data-width="350"
+									data-height="240"
+									data-tabs="timeline" 
+									data-small-header="true" 
+									data-adapt-container-width="true" 
+									data-hide-cover="false" 
+									data-show-facepile="true">
+										<blockquote cite="https://www.facebook.com/Divellaw/?eid=ARA-XnT0l114JhyJ0RSA-RQPjB-pVbuwvKE8gV43pNll1-jOjY6R7q9ys8fpldzlb2Lde79QXuZEs8cX" class="fb-xfbml-parse-ignore">
+											<a href="https://www.facebook.com/Divellaw/?eid=ARA-XnT0l114JhyJ0RSA-RQPjB-pVbuwvKE8gV43pNll1-jOjY6R7q9ys8fpldzlb2Lde79QXuZEs8cX">Future First Criminal Law</a>
+										</blockquote>
+									</div></center>
+							</div>
+						</div>
+						<div class="quote">
+							<h4 class="mt-3 mt-lg-5 font-italic">"Our business is in the business of making people's lives better!"</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	<?php } ?>
+
+	<?php get_template_part('theme/includes/testimonials'); ?>
+
+	<div id="botbar">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 my-auto text-center text-lg-left">
+					<h3 class="b-title">Future First Criminal Law</h3>
+					<a href="https://goo.gl/maps/tZGbWs12Ngq" target="_blank" title="Get Directions On Google Maps">
+						<p>
+							7112 N 55th Ave, Suite C 
+						 	<br>
+							Glendale, AZ 85301
+						</p>
+					</a>
+					<a href="https://goo.gl/maps/Dhv3JfNtw2KDYT628" target="_blank" title="Get Directions On Google Maps">
+						<p>
+							2999 N. 44th St. Suite 307, 
+							<br>
+							Phoenix, AZ 85018
+						</p>
+					</a>
+				</div>
+				<div class="col-lg-2 my-auto pt-3 text-center text-lg-left">
+					<h3 class="b-title">Working Hours</h3>
+					<p>Office Hours: 8am-5pm<br> Contact us by Phone or<br> Email <a href="<?php the_permalink(18); ?>" title="Contact us"><span>24/7</span></a></p>
+				</div> 
+				<div class="col-lg-4 my-auto text-center">
+					<h3 class="b-title">Social Profiles</h3>
+					<div class="social">
+						<div class="d-flex justify-content-center text-center soc-icons">
+							<a href="https://lawyers.justia.com/lawyer/zachary-divelbiss-1529744" target="_blank" title="Visit Our Justia Acount"><i class="icon-justia"></i></a>
+							<a href="https://www.avvo.com/attorneys/85301-az-zachary-divelbiss-4956593.html" target="_blank" title="Visit Our Avvo Acount"><i class="icon-avvo"></i></a>
+							<a href="https://www.facebook.com/Divellaw/" target="_blank" title="Visit Our Facebook Profile"><i class="fa fa-facebook-f"></i></a>
+							<a href="https://www.linkedin.com/in/zachary-divelbiss/" target="_blank" title="Visit Our linkedin Acount"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+							<a href="http://yelp.com/biz/divelbiss-criminal-law-glendale?utm_medium=badge_button&utm_source=biz_review_badge" target="_blank" title="Check out Divelbiss Criminal Law on Yelp"><i class="fa fa-yelp" aria-hidden="true"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col mt-2 text-center text-lg-left">
+					<div class="phone py-3 py-lg-0">
+						<!--						<p>Contact Divelbiss Criminal Law</p>-->
+						<h3 class="b-title">Contact Future First Criminal Law</h3>
+						<a href="tel:+1602-900-6642" title="Contact Us">602-900-6642</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer-logo">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 my-0 my-lg-3">
+					<div class="logo">
+						<h2 class="background"><span><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/theme/img/footer-logo.png" alt="Divellaw" title="Divellaw" style="max-width: 300px; width: 100%;" /></span></h2>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<?//php get_template_part('theme/includes/botbar'); ?>
+		<?php get_template_part('theme/includes/copyright'); ?>
+
+</footer>
+
+
+<?php wp_footer(); ?>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,700">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,500,700">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:400i">
+<script type="text/javascript" src="https://d3h66sfd9htnrp.cloudfront.net/otmwidget.run.js?apikey=867e5e00-d30f-11e8-b2fd-1fc23bde03fe"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.js"></script>
+<script>
+	var swiper = new Swiper('.swiper-container', {
+		pagination: {
+			el: '.swiper-pagination',
+			clickable: true,
+		},
+		autoplay: {
+    delay: 5000,
+  },
+	});
+
+	jQuery('.carousel').carousel({
+	  interval: 10000
+	})
+
+</script>
+<!-- divellaw.com -->
+<!-- Start Of NGage -->
+<div id="nGageLH" style="visibility:hidden; display: block; padding: 0; position: fixed; right: 0px; bottom: 0px; z-index: 5000;"></div>
+<script type="text/javascript" src="https://messenger.ngageics.com/ilnksrvr.aspx?websiteid=206-37-34-114-176-171-162-140" async="async"></script>
+<!-- End Of NGage -->
+</body>
+
+</html>

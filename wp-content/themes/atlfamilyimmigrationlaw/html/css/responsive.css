@@ -1,0 +1,666 @@
+/* 1440 */
+@media only screen and (max-width: 1600px) and (min-width: 1440px) {
+  section.cms-review .slick-slide {
+    margin-left: 90px;
+    margin-right: 90px;
+  }
+
+  section.cms-review button.slick-prev {
+    left: 20%;
+  }
+
+  section.cms-review button.slick-next {
+    right: 20%;
+  }
+}
+
+/* 1366 */
+@media only screen and (max-width: 1439px) and (min-width: 1281px) {
+  section.cms-review .slick-slide {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  section.cms-review button.slick-prev {
+    left: 20%;
+  }
+
+  section.cms-review button.slick-next {
+    right: 20%;
+  }
+}
+
+/* 1280 */
+@media only screen and (max-width: 1280px) and (min-width: 1200px) {
+  section.cms-law .law-inner:before {
+    left: 0;
+    width: 100%;
+  }
+
+  section.cms-review .slick-slide {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  section.cms-review button.slick-prev {
+    left: 20%;
+  }
+
+  section.cms-review button.slick-next {
+    right: 20%;
+  }
+}
+
+/* 1024 */
+@media only screen and (max-width: 1199px) {
+  header#site-header {
+    background: url(https://atlfamilyimmigrationlaw.com/wp-content/uploads/2021/05/header-mobile-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 100% 100%;
+    height: auto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+    height: 86px;
+  }
+
+  #site-header-inner {
+    padding: 0 !important;
+  }
+
+  #site-logo {
+    margin-top: 0px !important;
+    margin-left: 10px;
+  }
+
+  body .oceanwp-mobile-menu-icon a {
+    line-height: 86px;
+  }
+
+  #top-bar-inner {
+    display: none;
+  }
+
+
+  section.cms-banner {
+    padding: 60px 0 40px;
+  }
+
+  section.cms-banner p {
+    padding: 0 0 30px;
+  }
+
+  section.cms-banner .banner-bottom .g-review {
+    padding-left: 10px;
+  }
+
+
+  section.cms-law .law-title {
+    padding: 0;
+  }
+
+  section.cms-law .law-title .content {
+    font-size: 30px;
+  }
+
+
+
+  section.cms-video .video-top {
+    padding: 0 0px 70px;
+  }
+
+
+  section.cms-newsletter {
+    background-position: 20% 0;
+  }
+
+
+  section.cms-review .slick-slide {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  section.cms-review button.slick-prev {
+    left: 12%;
+  }
+
+  section.cms-review button.slick-next {
+    right: 12%;
+  }
+
+
+  /*  Menu Country Add - 01-06-2021
+  =========================================================
+  */
+  .sidr-class-lang_flag a:before {
+    content: "";
+    position: absolute;
+    left: 150px;
+    top: 18px;
+    background-image: url(../images/mexico-flag.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 18px;
+    height: 18px;
+  }
+
+}
+
+/* 768 */
+@media only screen and (max-width: 1023px) {
+
+
+
+
+  section.cms-banner {
+    padding: 10px 0 10px;
+  }
+
+  section.cms-banner .banner-top {
+    display: block;
+  }
+
+  section.cms-banner .banner-bottom-icon {
+    display: none;
+  }
+
+  section.cms-banner .banner-img {
+    box-shadow: 0px 5.16113px 14.6473px rgba(0, 0, 0, 0.3);
+    margin: 35px 0 35px;
+  }
+
+  section.cms-banner .banner-img .video-btn {
+    display: block;
+  }
+
+  section.cms-banner .banner-img .video-btn img {
+    width: 100%;
+  }
+
+  section.cms-banner .banner-bottom .g-review {
+    display: none;
+  }
+
+
+  section.cms-abouthome .abouthome-lft {
+    padding: 0 0 120px;
+    display: flex;
+    justify-content: center;
+  }
+
+  section.cms-abouthome .abouthome-lft::before {
+    left: 20%;
+  }
+
+  section.cms-abouthome .abouthome-rht {
+    padding: 0;
+  }
+
+
+  section.cms-immigration .row:nth-child(2n) {
+    display: block;
+    flex-direction: inherit;
+  }
+
+  section.cms-immigration .immigration-img {
+    text-align: center;
+    margin: 60px 0 0;
+  }
+
+  section.cms-immigration .row:nth-child(2n) .immigration-img {
+    text-align: center;
+  }
+
+
+  section.cms-law .law-inner::before {
+    display: none;
+  }
+
+  section.cms-law .law-title {
+    background-color: #711B28;
+    border-radius: 20px;
+    padding: 0 15px 0;
+  }
+
+  section.cms-law .btn-box::after,
+  section.cms-law .btn-box::before {
+    width: 25%;
+  }
+
+
+
+  section.cms-review .slick-slide {
+    transform: inherit;
+  }
+
+  section.cms-review .review-img {
+    display: none;
+  }
+
+  section.cms-review button.slick-prev,
+  section.cms-review button.slick-next {
+    top: 50%;
+    bottom: inherit;
+    width: 27px;
+    height: 50px;
+    background-size: 100%;
+    margin-top: -14px;
+  }
+
+  section.cms-review button.slick-prev {
+    left: 0;
+  }
+
+  section.cms-review button.slick-next {
+    right: 0;
+  }
+
+  section.cms-review .pagination {
+    font-size: 30px;
+    margin: 0 0 0;
+  }
+
+  section.cms-review .slick-slide {
+    transform: none;
+    padding: 0;
+  }
+
+
+
+
+  footer.cms-footer .copyright {
+    width: 100%;
+    padding: 0 0 30px;
+  }
+
+  footer.cms-footer .footer-bottom .footer-address {
+    width: 70%;
+  }
+
+  footer.cms-footer .footer-bottom .footer-address:last-child {
+    width: 30%;
+  }
+
+
+
+
+
+
+  .close {
+    right: 5px;
+    top: 2px;
+    color: #520D17;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  section.cms-banner .banner-top {
+    padding: 20px 0 20px;
+  }
+}
+
+/* 736 */
+@media only screen and (max-width: 767px) {
+  .section-header {
+    padding: 0 0 30px;
+  }
+
+  .section-header h2 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+
+  section.cms-banner .banner-top {
+    background-color: #fafafa;
+    padding: 20px 0 20px;
+  }
+
+  section.cms-banner .banner-top .col-lg-4 {
+    padding: 0 5px;
+  }
+
+  section.cms-banner .banner-top .banner-box .icon {
+    margin: 0 0 10px;
+  }
+
+  section.cms-banner .banner-top .banner-box .icon img {
+    height: 67px;
+  }
+
+  section.cms-banner .banner-box h4 {
+    font-size: 14px;
+  }
+
+  section.cms-banner .banner-inner {
+    margin: 20px 0 0;
+    padding-left: 20px;
+    border-left: solid 3px #F5C643;
+  }
+
+  section.cms-banner .banner-inner::before {
+    display: none;
+  }
+
+  section.cms-banner h1 {
+    font-size: 10px;
+    line-height: 14px;
+  }
+
+  section.cms-banner h1 span {
+    display: none;
+  }
+
+  section.cms-banner h2 {
+    font-size: 37px;
+    line-height: 33px;
+    letter-spacing: -0.02em;
+    margin: 0 0 20px;
+  }
+
+  section.cms-banner p {
+    padding: 0 0 0px;
+    line-height: 20px;
+  }
+
+  section.cms-banner .banner-bottom {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  section.cms-banner .btn-box {
+    margin: 20px 20px 20px;
+  }
+
+  section.cms-banner .btn-box .book-btn {
+    width: 240px;
+    height: 52px;
+    font-size: 14px;
+    border: 3px solid #711B28;
+  }
+
+  section.cms-banner .btn-box .book-btn img {
+    width: 10px;
+  }
+
+
+
+  section.cms-abouthome {
+    padding: 40px 0 40px;
+  }
+
+
+  section.cms-immigration {
+    padding: 40px 0 40px;
+  }
+
+  section.cms-immigration .row {
+    padding: 0 0 40px;
+  }
+
+  section.cms-immigration .immigration-img::before {
+    left: -15px;
+  }
+
+  section.cms-immigration .row:nth-child(2n) .immigration-lft {
+    padding-left: 0;
+  }
+
+  section.cms-immigration .row:nth-child(2n) .immigration-img::before {
+    left: -15px;
+  }
+
+
+
+  section.cms-law .law-inner {
+    padding: 0 0 40px;
+  }
+
+  section.cms-law .law-title {
+    height: 80px;
+  }
+
+  section.cms-law .icon img {
+    height: 50px;
+  }
+
+  section.cms-law .law-title .content {
+    font-size: 24px;
+    width: calc(100% - 60px);
+  }
+
+  section.cms-law .law-link {
+    margin: 15px 0 15px;
+    padding-left: 0;
+  }
+
+  section.cms-law .btn-box {
+    margin: 40px 0 0;
+  }
+
+
+
+  section.cms-video {
+    padding: 40px 0 40px;
+  }
+
+  section.cms-video .video-top {
+    padding: 0 0px 40px;
+  }
+
+  section.cms-video .video-top h3 {
+    padding: 0;
+    font-size: 20px;
+  }
+
+  section.cms-video .video-inner {
+    padding: 0 0px 0px;
+  }
+
+  section.cms-video .video-box .content {
+    font-size: 16px;
+  }
+
+
+
+  section.cms-book {
+    padding: 40px 0 40px;
+  }
+
+  section.cms-book .book-box .book {
+    flex-wrap: wrap;
+  }
+
+  section.cms-book .book-box .book .content {
+    width: 100%;
+  }
+
+  section.cms-book .book-box .btn-box {
+    display: none;
+  }
+
+  section.cms-book .book-box .btn-box.last {
+    display: block;
+    padding: 0;
+  }
+
+  section.cms-book .book-box .book .book-img {
+    padding: 0 0 30px;
+    width: 100%;
+    text-align: center;
+  }
+
+
+
+  section.cms-newsletter {
+    background-image: none !important;
+    background-color: #520D17;
+    padding: 40px 0 40px;
+  }
+
+  section.cms-newsletter .newsletter {
+    margin: 0;
+  }
+
+  section.cms-newsletter .badge-icon {
+    display: none;
+  }
+
+  section.cms-newsletter .signup-inner {
+    padding-left: 0;
+  }
+
+  section.cms-newsletter .signup-inner h2 {
+    font-size: 26px;
+    line-height: 36px;
+    margin: 0 0 40px;
+  }
+
+  section.cms-newsletter .newsletter .form-control {
+    width: 100%;
+  }
+
+  section.cms-newsletter .news-btn {
+    position: relative;
+    width: 100%;
+    top: 0;
+    margin-top: 20px;
+  }
+
+
+
+  section.cms-review {
+    padding: 40px 0 40px;
+  }
+
+  section.cms-review .review-box {
+    padding: 50px 40px 50px;
+  }
+
+
+
+  footer.cms-footer .footer-top {
+    padding: 40px 0 20px;
+  }
+
+  footer.cms-footer .footer-top h2 {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+
+
+  section.cms-newsletter .gform_legacy_markup_wrapper li.hidden_label input {
+    width: 100%;
+  }
+
+  section.cms-newsletter .gform_legacy_markup_wrapper .gform_footer {
+    padding-top: 15px;
+  }
+
+  section.cms-newsletter .gform_legacy_markup_wrapper .gform_footer .button {
+    position: relative;
+    top: 0;
+    width: 100%;
+  }
+
+
+
+  footer.cms-footer .gform_wrapper ul.gform_fields li.gfield {
+    width: 100%;
+  }
+
+  footer.cms-footer .gform_wrapper #field_12_4 {
+    width: 100%;
+  }
+
+  footer.cms-footer .gform_wrapper.gform_validation_error .gform_body ul li.gfield.gfield_error:not(.gf_left_half):not(.gf_right_half) {
+    width: 100%;
+  }
+
+  footer.cms-footer .gform_wrapper #field_12_5 {
+    width: 100%;
+  }
+
+  footer.cms-footer .gform_wrapper .gform_footer {
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 100%;
+  }
+
+  footer.cms-footer .gform_wrapper .gform_footer input.button {
+    width: 100%;
+  }
+
+  footer.cms-footer .gform_wrapper textarea.medium {
+    padding-right: 15px;
+  }
+
+  /*  Banner Image Hover Add - 01-06-2021
+  ========================================================= */
+  .cms-banner .banner-top .icon a .icon_hover {
+    width: 67px;
+    height: 67px;
+  }
+
+}
+
+
+/* 667 */
+@media only screen and (max-width: 735px) {}
+
+/* 600 */
+@media only screen and (max-width: 666px) {
+  section.cms-abouthome .abouthome-lft::before {
+    left: 0;
+    top: 40px;
+  }
+
+  section.cms-law .btn-box::after,
+  section.cms-law .btn-box::before {
+    width: 9%;
+  }
+
+
+  footer.cms-footer .footer-bottom {
+    flex-direction: column-reverse;
+  }
+
+  footer.cms-footer .footer-phone {
+    padding: 20px 0 0;
+  }
+
+  footer.cms-footer .footer-bottom .footer-address {
+    width: 100%;
+    margin: 0 0 40px;
+  }
+
+  footer.cms-footer .footer-bottom .footer-address:last-child {
+    width: 100%;
+    margin: 0 0 40px;
+  }
+
+  footer.cms-footer .copyright {
+    padding: 0 0 0;
+  }
+
+  footer.cms-footer .copyright .footer-social {
+    width: 100%;
+  }
+
+}
+
+/* 568 */
+@media only screen and (max-width: 599px) {}
+
+/* 480 */
+@media only screen and (max-width: 567px) {}
+
+/* 414 */
+@media only screen and (max-width: 479px) {}
+
+/* 375 */
+@media only screen and (max-width: 413px) {}
+
+/* 320 */
+@media only screen and (max-width: 374px) {}
